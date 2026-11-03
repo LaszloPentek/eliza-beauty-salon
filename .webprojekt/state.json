@@ -1,1 +1,25 @@
-{"phase":"prototypes_complete","direction_count":3,"is_redesign":false,"source_url":null,"validation":{"structural":"passed","javascript_syntax":"passed","browser_visual":"blocked_by_browser_file_url_policy"}}
+{
+  "phase": "homepage_selected",
+  "direction_count": 3,
+  "is_redesign": false,
+  "source_url": null,
+  "validation": {
+    "structural": "passed",
+    "javascript_syntax": "passed",
+    "browser_visual": "not_run_previous_policy_block"
+  },
+  "selected_direction": 1,
+  "selected_homepage": "kivalasztott-kezdooldal.html",
+  "borrowed_sections": [
+    {
+      "direction": 2,
+      "section": "Tudd, mire számíthatsz",
+      "id": "folyamat"
+    },
+    {
+      "direction": 2,
+      "section": "Fotós Eliza-bemutatkozás, a felhasználó képe alapján",
+      "id": "eliza"
+    }
+  ]
+}
