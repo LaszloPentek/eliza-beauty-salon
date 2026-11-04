@@ -12,3 +12,19 @@ Kiinduló mobilos jelentés: https://pagespeed.web.dev/analysis/https-eliza-beau
 - A 11 KiB cache-figyelmeztetés a Netlify /.netlify/scripts/hud szolgáltatásához tartozik, nem a saját statikus fájlokhoz.
 
 A betűtípusokat a fonts.googleapis.com CSS és fonts.gstatic.com szolgáltatta. A licencek a google/fonts hivatalos tárolójából származnak.
+
+## Éles visszamérés
+
+Új jelentés: https://pagespeed.web.dev/analysis/https-eliza-beauty-salon1-netlify-app/dc9hwomp0r?form_factor=mobile
+
+2026-11-04 23:23 CET, Lighthouse 13.6, Moto G Power, lassú 4G:
+- Performance: 99 (előtte 93).
+- Accessibility / best practices / SEO: 100 / 100 / 100.
+- FCP: 0,9 s (előtte 1,5 s).
+- LCP: 1,6 s (előtte 2,9 s).
+- Speed Index: 2,6 s (előtte 4,1 s).
+- TBT: 0 ms; CLS: 0,001.
+
+A renderblokkoló kérések, túlméretezett képek és hiányzó képméretek jelzése eltűnt. A Netlify HUD 11 KiB gyorsítótár-jelzése megmaradt.
+
+Mind az öt oldal helyi hivatkozás-, képméret/srcset-, H1-, JSON-LD- és CSS-szinkronellenőrzése sikeres. A JavaScript szintaxisellenőrzése sikeres. Az éles főoldal 390 px szélességen nem lóg túl; a menü nyitása és Escape-pel zárása működik. A mobilos böngésző a treatment-perf-480.webp képet választotta. A Google OFL licencek eredeti záró szóközei diff-check figyelmeztetést adnak; a licencszöveget változatlanul megőriztük.
