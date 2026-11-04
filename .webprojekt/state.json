@@ -1,5 +1,5 @@
 {
-  "phase": "homepage_selected",
+  "phase": "multipage_demo_complete",
   "direction_count": 3,
   "is_redesign": false,
   "source_url": null,
@@ -22,5 +22,12 @@
       "id": "eliza"
     }
   ],
-  "publish_directory": "public"
+  "publish_directory": "public",
+  "pages": [
+    "index.html",
+    "kezelesek.html",
+    "rolunk.html",
+    "kapcsolat.html",
+    "adatkezeles.html"
+  ]
 }
