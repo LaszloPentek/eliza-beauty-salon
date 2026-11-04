@@ -3,7 +3,7 @@
 A felhasználó visszajelzése alapján az 1. koncepció a meghatározó, különösen a teteje. A 2. koncepcióból a „Tudd, mire számíthatsz” folyamatblokk kerül át.
 
 ## Alap
-- Forrás: koncepcio-1-csendes-enido.html; összeállított oldal: kivalasztott-kezdooldal.html.
+- Forrás: koncepcio-1-csendes-enido.html; összeállított oldal: public/index.html.
 - Az 1-es fejléc, hero, fotókivágás, cím, gombok és térközök megmaradnak.
 - Kötelező paletta és tipográfia: a gyökérbeli design-system.md szerint.
 - Cormorant Garamond 500/600, Jost 400/500; krém, púder, rózsafa; 16 px képsarkok, kapszula gombok, 12 px űrlapmezők.
@@ -21,3 +21,6 @@ A nyitó szakasz HTML-je pontosan megegyezik az 1-esével. A három eredeti konc
 
 ## További kiválasztás
 A felhasználó képe alapján a 2-es fotós Eliza-bemutatkozása is átkerült: bal oldali spa-fotó, jobb oldali bemutatkozás, 14 év / 2019 adatok és a folyamatra mutató hivatkozás. Az alatta lévő előnyblokk nem része ennek az átvételnek. Az 1-es nyitó szakasza változatlan.
+
+## Rögzített design system
+A részletes, kötelező komponens- és stílusleírás a projekt gyökerében lévő design-system.md, a tokenek a .webprojekt/design-tokens.json fájlban találhatók.

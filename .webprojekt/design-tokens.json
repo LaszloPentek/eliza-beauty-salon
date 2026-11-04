@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "source": "public/index.html",
+  "colors": {
+    "rose": "#8E4A5A",
+    "deep": "#6E3644",
+    "cream": "#FAF6F2",
+    "powder": "#F1E6DF",
+    "ink": "#2E2626",
+    "muted": "#6B5F5C",
+    "line": "#E3D6CF",
+    "gold": "#C9A27E"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Cormorant Garamond",
+      "weights": [
+        500,
+        600
+      ],
+      "fallback": "Georgia, serif"
+    },
+    "body": {
+      "family": "Jost",
+      "weights": [
+        400,
+        500
+      ],
+      "fallback": "Arial, sans-serif"
+    }
+  },
+  "typography": {
+    "h1": {
+      "size": "clamp(40px,4.7vw,64px)",
+      "weight": 500,
+      "lineHeight": 1.1
+    },
+    "h2": {
+      "size": "clamp(32px,3.4vw,44px)",
+      "weight": 500,
+      "lineHeight": 1.1
+    },
+    "body": {
+      "desktop": 18,
+      "mobile": 16,
+      "lineHeight": 1.65
+    }
+  },
+  "spacing": [
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    64,
+    80,
+    96,
+    112
+  ],
+  "layout": {
+    "maxContentWidth": 1200,
+    "desktopGutter": 40,
+    "mobileGutter": 20,
+    "sectionPaddingDesktop": 112,
+    "sectionPaddingMobile": 64
+  },
+  "breakpoints": {
+    "compact": 1000,
+    "mobile": 700,
+    "narrow": 420
+  },
+  "radii": {
+    "image": 16,
+    "field": 12,
+    "button": 99
+  },
+  "selectedComponents": {
+    "baseConcept": 1,
+    "aboutConcept": 2,
+    "processConcept": 2
+  }
+}
