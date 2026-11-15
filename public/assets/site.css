@@ -59,3 +59,26 @@
 
 
 .subhero{padding:80px 0 64px;background:var(--powder)}.subhero p:not(.kicker){max-width:650px;margin-top:24px;color:var(--muted)}.subhero h1{max-width:850px}.subhero .btn{margin-top:32px}.editorial{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px}.editorial p{margin:16px 0;color:var(--muted)}.service-block{padding:48px 0;border-bottom:1px solid var(--line)}.service-block:first-child{padding-top:0}.service-block h2{margin-bottom:24px}.service-block p{max-width:700px}.service-block ul,.package ul{padding-left:24px;margin:24px 0}.service-block li,.package li{margin:12px 0}.packages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:48px}.package{background:var(--powder);padding:32px;border-radius:16px;display:flex;flex-direction:column}.package .price{font:500 40px/1.2 'Cormorant Garamond',Georgia,serif;color:var(--rose);margin:24px 0}.package .btn{margin-top:auto}.guarantee{max-width:800px;margin:64px auto 0;text-align:center}.guarantee p{margin-top:24px}.story p{max-width:680px;margin:24px 0}.timeline{display:grid;gap:32px;border-left:1px solid var(--gold);padding-left:32px}.timeline strong{display:block;font:500 40px/1.2 'Cormorant Garamond',Georgia,serif;color:var(--rose)}.legal{max-width:760px}.legal h2{margin:40px 0 20px}.legal p{margin:16px 0}.nav a[aria-current=page]{color:var(--rose);text-decoration:underline;text-underline-offset:8px}.contact-address{margin-top:32px}.footer-top h2{font-size:24px;margin:16px 0}@media(max-width:1000px){.editorial{gap:40px}.packages{grid-template-columns:1fr}.package{max-width:720px}}@media(max-width:700px){.subhero{padding:48px 0}.editorial{grid-template-columns:1fr;gap:32px}.service-block{padding:32px 0}.package{padding:24px}.timeline{padding-left:24px}}
+
+/* Telefon: kényelmes érintési célok és keskeny kijelzők. */
+.contact-grid>*{min-width:0}.contact-address a,.footer-top p{overflow-wrap:anywhere}
+input[type=email]{text-transform:none}
+@media(max-width:700px){
+  html{scroll-padding-top:96px}
+  .menu-toggle{min-width:76px;min-height:44px}
+  .nav{max-height:calc(100dvh - 80px);overflow-y:auto;gap:8px;overscroll-behavior:contain}
+  .nav a,.footer-links a{display:flex;align-items:center;min-height:44px}
+  .textlink{min-height:44px;display:inline-flex;align-items:center}
+  input:not([type=checkbox]),textarea{font-size:16px;min-height:48px}
+  .check{min-height:44px;align-items:flex-start}.check input{width:20px;height:20px;flex:0 0 20px}
+  .btn{max-width:100%;white-space:normal;text-align:center}
+  .hero-actions .btn{width:100%}.hero-panel{padding-inline:20px}
+  .header-inner{gap:16px}.footer-bottom a{min-height:44px;display:inline-flex;align-items:center}
+}
+@media(max-width:420px){
+  .footer-top{grid-template-columns:minmax(0,1fr)}
+  .hero-photo{height:240px}.hero .photo-caption{top:192px}
+  h1{font-size:36px}.hero-panel{padding:24px 16px 16px}
+  .hero-panel h1 br{display:none}.hero-panel h1{max-width:100%}
+  .selected-credentials{gap:24px}.section{padding-block:56px}
+}
