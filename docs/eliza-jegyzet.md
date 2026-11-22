@@ -49,13 +49,13 @@ Plusz: adatkezelési tájékoztató (a láblécből elérhető).
 
 ## Design-inspirációk az ügyféltől
 
-| Oldal | Mi tetszik neki |
-|---|---|
-| Lesya Beauty Spa (ThemeForest demó) | színvilág, betűtípusok, összhatás |
-| reina.qodeinteractive.com/beauty-treatments | kellemes összhatás |
-| tokeletesarc.hu | szép színvilág, kellemes összhatás, ügyesen összerakott szövegek |
-| borapolasneked.hu | színek |
-| szepsegmegallo.hu | színek, összhatás |
+| Oldal                                       | Mi tetszik neki                                                  |
+| ------------------------------------------- | ---------------------------------------------------------------- |
+| Lesya Beauty Spa (ThemeForest demó)         | színvilág, betűtípusok, összhatás                                |
+| reina.qodeinteractive.com/beauty-treatments | kellemes összhatás                                               |
+| tokeletesarc.hu                             | szép színvilág, kellemes összhatás, ügyesen összerakott szövegek |
+| borapolasneked.hu                           | színek                                                           |
+| szepsegmegallo.hu                           | színek, összhatás                                                |
 
 ## Anyagok
 

@@ -117,16 +117,19 @@ Lásd a közös elemeknél.
 
 **Belico arckezelések**
 Az egészséges, sejtszintű bőrmegújulást az értékes növényi összetevők mellett aktív és szállító hatóanyagok (többrétegű liposzómák, nanoszómák, ceramidok, foszfolipidek stb.) biztosítják. A látványos és gyors bőrfiatalítást a kozmetikai ipar leginnovatívabb bőrbarát hatóanyagai, kimondottan magas koncentrációban teszik lehetővé.
+
 - Skin regeneration kezelés érzékeny bőrre (90 perc, 35 év fölött)
 - Hydro energy mélyhidratáló effect kezelés (90 perc, 35 év fölött)
 
 **Mesotica luxus kezelések**
 Azonnali ráncsimító hatás, azonnali látvány, plasztikai beavatkozások nélkül! A tudomány mára már bebizonyította, hogy a kozmetikai peptidek jelentős szerepet játszanak a különböző bőrproblémák kezelésében. Néhány vizsgálat szerint a kozmetikai peptidek képesek eltüntetni az öregedés jeleit.
+
 - Arckezelés (90–120 perc, 40 év fölött)
 - Arc-nyak-dekoltázs kezelés (120–180 perc, 40 év fölött)
 
 **További kezelések**
 Nálam mindent megtalálsz, ami teljes szépülésedhez, pihenésedhez szükséges. Minden kezelésem személyre szabott, mely során figyelembe veszem bőröd aktuális igényét, állapotát.
+
 - DrDerm tű nélküli mezoterápiás kezelés
 - Fotorejuvenáció
 - Tűs mezoterápia / mezopen kezelés
@@ -149,12 +152,12 @@ Nálam mindent megtalálsz, ami teljes szépülésedhez, pihenésedhez szükség
 - **Cím:** Találd meg a tökéletes csomagot!
 - **Szöveg:** A bőrápolás hosszú távú befektetés önmagadba. Egy jól felépített, komplex kezeléssorozat nemcsak látványos eredményt mutat, hanem bőröd egészségét is támogatja. Válaszd ki a számodra legmegfelelőbb csomagot, és tapasztald meg, milyen érzés, amikor a bőröd valóban hálás a törődésért.
 
-| | Anti-Age csomag | Anti-Age Plus csomag | Tini Anti-Akné csomag |
-|---|---|---|---|
-| Ár | 79 000 Ft | 99 000 Ft | 59 000 Ft |
-| Leírás | Feszesebb, simább, üdébb bőr – kíméletes, mégis hatékony bőrfiatalítás célzott kezelésekkel. | Intenzív bőrmegújítás, amely láthatóan csökkenti a ráncokat és visszaadja a bőr rugalmasságát. | Hatékony megoldás a makacs pattanások ellen, hogy bőröd tiszta, egészséges és ragyogó legyen. |
+|          | Anti-Age csomag                                                                                                                                                         | Anti-Age Plus csomag                                                                                                                                    | Tini Anti-Akné csomag                                                                                                                                                      |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ár       | 79 000 Ft                                                                                                                                                               | 99 000 Ft                                                                                                                                               | 59 000 Ft                                                                                                                                                                  |
+| Leírás   | Feszesebb, simább, üdébb bőr – kíméletes, mégis hatékony bőrfiatalítás célzott kezelésekkel.                                                                            | Intenzív bőrmegújítás, amely láthatóan csökkenti a ráncokat és visszaadja a bőr rugalmasságát.                                                          | Hatékony megoldás a makacs pattanások ellen, hogy bőröd tiszta, egészséges és ragyogó legyen.                                                                              |
 | Tartalom | 5 × Belico kezelés (szabadon választható a Skin regeneration és a Hydro energy kezelés közül) · Arcmasszázs minden alkalommal (10 perc) · Személyre szabott hatóanyagok | 5 × Mesotica arckezelés · Mezoterápiás kezelés a fiatalosabb bőrért · Arcmasszázs minden alkalommal (10 perc) · Személyre szabott bőrápolási tanácsadás | 5 alkalmas intenzív bőrtisztító program 14–19 éveseknek · Mélytisztítás, gyulladáscsökkentés és peeling minden alkalommal · Otthoni bőrápolási útmutató az első alkalommal |
-| Gomb | Ezt választom → időpontkérő | Ezt választom → időpontkérő | Ezt választom → időpontkérő |
+| Gomb     | Ezt választom → időpontkérő                                                                                                                                             | Ezt választom → időpontkérő                                                                                                                             | Ezt választom → időpontkérő                                                                                                                                                |
 
 ### Vélemények, folyamat, időpontkérő, lábléc
 

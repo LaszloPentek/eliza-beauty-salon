@@ -1,6 +1,0 @@
-# Figma és AI – beadási vázlat
-
-Megnézett forrás: https://www.figma.com/design/NmAzfIskniZgv6UdyfpgKk/?node-id=27221-1601
-Ez összehasonlító vázlat, nem a felhasználó által már jóváhagyott személyes beszámoló. Az időadatokat a felhasználó megadta.
-
-A Figma-terv világos, korallos színvilágot, erősebb, talpatlan címsorokat és kétoszlopos nyitószakaszt használ. Az AI-os változat krémszínű és rózsafa árnyalatokkal, finom talpas címsorokkal és a fotóra helyezett szövegpanelekből épít nyugodtabb szalonhangulatot. Az AI-folyamat előnye, hogy három irányból választhattam, és a kiválasztott változatból működő, reszponzív, éles oldal készült. A Figma-változatban közvetlenebbül tudtam alakítani a szakaszok és az elemek elhelyezését; az AI-os oldalon ezeket pontos visszajelzésekkel kellett finomhangolni. Az AI által elkészített felület önmagában még nem jelentett kész funkciót: az űrlap bekötését és az adatkezelést külön ellenőrizni kellett. A Figma-tervvel körülbelül 10 órát, az AI-os változattal körülbelül 7–8 órát töltöttem. Valódi ügyfélnél összetett felületek, több döntéshozó és részletes tervezési egyeztetés esetén Figmával kezdenék. Egy kisebb bemutatkozó oldalnál, kész tartalommal és világos arculati iránnyal közvetlenül AI-jal is elindulnék, de a vizuális és működési ellenőrzést ugyanúgy elvégezném.

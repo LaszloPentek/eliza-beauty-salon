@@ -13,17 +13,17 @@ Kerülendő: neon, erős színátmenet, túl sok árnyék, csillogás, állandó
 
 ## 2. Színek
 
-| CSS-változó | Név | Érték | Használat |
-|---|---|---|---|
-| --rose | Rózsafa | #8E4A5A | Elsődleges gomb, link, hangsúlyos szakasz |
-| --deep | Sötét rózsafa | #6E3644 | Gomb hover |
-| --cream | Krém | #FAF6F2 | Oldalháttér, kiemelt szakasz világos szövege |
-| --powder | Púder | #F1E6DF | GYIK, kapcsolat, alternáló felület |
-| --ink | Sötét kakaó | #2E2626 | Cím és törzsszöveg |
-| --muted | Szürkésbarna | #6B5F5C | Kísérőszöveg és címke |
-| --line | Halvány púder | #E3D6CF | Elválasztó, mezőkeret |
-| --gold | Homokarany | #C9A27E | Dekoratív ág, levél és finom részletek |
-| – | Fehér | #FFFFFF | Űrlapfelület és elsődleges gombfelirat |
+| CSS-változó | Név           | Érték   | Használat                                    |
+| ----------- | ------------- | ------- | -------------------------------------------- |
+| --rose      | Rózsafa       | #8E4A5A | Elsődleges gomb, link, hangsúlyos szakasz    |
+| --deep      | Sötét rózsafa | #6E3644 | Gomb hover                                   |
+| --cream     | Krém          | #FAF6F2 | Oldalháttér, kiemelt szakasz világos szövege |
+| --powder    | Púder         | #F1E6DF | GYIK, kapcsolat, alternáló felület           |
+| --ink       | Sötét kakaó   | #2E2626 | Cím és törzsszöveg                           |
+| --muted     | Szürkésbarna  | #6B5F5C | Kísérőszöveg és címke                        |
+| --line      | Halvány púder | #E3D6CF | Elválasztó, mezőkeret                        |
+| --gold      | Homokarany    | #C9A27E | Dekoratív ág, levél és finom részletek       |
+| –           | Fehér         | #FFFFFF | Űrlapfelület és elsődleges gombfelirat       |
 
 Homokarany világos felületen nem használható érdemi szöveghez. A halvány mezőkeret mellett mindig legyen szöveges címke és jól látható fókusz. A rózsafa blokkok között világos szakasz legyen; a folyamat és a vendégvélemények ne olvadjanak egyetlen színes tömbbe.
 
@@ -33,18 +33,18 @@ Címsor: Cormorant Garamond 500/600; tartalék Georgia, serif. Törzs és kezel�
 
 Az alábbi értékek a kiválasztott kezdőoldal tényleges CSS-éből származnak:
 
-| Elem | Méret | Vastagság | Sormagasság / megjegyzés |
-|---|---|---|---|
-| H1 | clamp(40px, 4.7vw, 64px) | 500 | 1.1; -0.025em betűköz |
-| H2 | clamp(32px, 3.4vw, 44px) | 500 | 1.1; -0.018em |
-| H3 | 28px; mobilon 24px | 600 | 1.1 |
-| Törzs | 18px; mobilon 16px | 400 | 1.65 |
-| Kis szöveg | 15px | 400 | Örökölt sormagasság |
-| Kicker | 13px; mobilon 12px | 500 | Nagybetű, 0.1em; csak indokolt helyen |
-| Gomb | 14px | 500 | 1.3; nagybetű, 0.06em |
-| Vélemény | 27px; mobilon 25px | 500 | Cormorant, 1.4 |
-| Szakmai adat | 40px | 600 | Cormorant, 1.1 |
-| Folyamatcím | 25px; mobilon 23px | 600 | Rövid, jól tördelhető |
+| Elem         | Méret                    | Vastagság | Sormagasság / megjegyzés              |
+| ------------ | ------------------------ | --------- | ------------------------------------- |
+| H1           | clamp(40px, 4.7vw, 64px) | 500       | 1.1; -0.025em betűköz                 |
+| H2           | clamp(32px, 3.4vw, 44px) | 500       | 1.1; -0.018em                         |
+| H3           | 28px; mobilon 24px       | 600       | 1.1                                   |
+| Törzs        | 18px; mobilon 16px       | 400       | 1.65                                  |
+| Kis szöveg   | 15px                     | 400       | Örökölt sormagasság                   |
+| Kicker       | 13px; mobilon 12px       | 500       | Nagybetű, 0.1em; csak indokolt helyen |
+| Gomb         | 14px                     | 500       | 1.3; nagybetű, 0.06em                 |
+| Vélemény     | 27px; mobilon 25px       | 500       | Cormorant, 1.4                        |
+| Szakmai adat | 40px                     | 600       | Cormorant, 1.1                        |
+| Folyamatcím  | 25px; mobilon 23px       | 600       | Rövid, jól tördelhető                 |
 
 Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kívánt vizuális méret alapján válaszd. A főoldali kézi sortöréseket csak ott tartsd meg, ahol keskeny képernyőn is értelmesek.
 
@@ -59,16 +59,17 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 
 ### Töréspontok
 
-| Tartomány | Elrendezés |
-|---|---|
-| 1000 px fölött | Teljes fejléc-CTA, tágas kétoszlopos blokkok, négylépéses folyamat egy sorban |
-| 701–1000 px | Szűkebb oszlopközök; fejléc-CTA rejtett; folyamat két oszlop |
-| 700 px és alatta | Mobilmenü; 20 px margó; tartalmi blokkok egy oszlopban; 64 px szakaszpadding |
-| 420 px és alatta | Folyamat egy oszlop; a szám a szöveg mellé kerül |
+| Tartomány        | Elrendezés                                                                    |
+| ---------------- | ----------------------------------------------------------------------------- |
+| 1000 px fölött   | Teljes fejléc-CTA, tágas kétoszlopos blokkok, négylépéses folyamat egy sorban |
+| 701–1000 px      | Szűkebb oszlopközök; fejléc-CTA rejtett; folyamat két oszlop                  |
+| 700 px és alatta | Mobilmenü; 20 px margó; tartalmi blokkok egy oszlopban; 64 px szakaszpadding  |
+| 420 px és alatta | Folyamat egy oszlop; a szám a szöveg mellé kerül                              |
 
 ## 5. Komponensek
 
 ### Fejléc és navigáció
+
 - Krém, sticky fejléc; asztali magasság 104 px, mobilon 80 px.
 - Logó: public/logo/logo.svg; asztali doboz 138×76 px, mobilon 112×64 px; object-fit: contain.
 - Asztalon szöveges menü; mobilon „Menü” / „Bezárás” gomb, aria-expanded és aria-controls.
@@ -77,6 +78,7 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 - Aloldalakon a menüpontok tényleges oldalra vezessenek, az aktív oldal aria-current="page" jelölést kapjon. Ez az aloldalak elkészítésekor megvalósítandó szabály.
 
 ### Nyitó szakasz
+
 - Az 1-esből megtartott széles kezelési kép és bal oldali krém szövegpanel.
 - Maximum 1440 px külső szélesség; asztalon minimum 660 px magas.
 - Szövegpanel maximum 536 px; a fotó fókusza 72% 50%.
@@ -85,6 +87,7 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 - Mobilon 300 px magas kép, alatta 40 px-rel ráfedő krém panel. Az aloldalak rövidebb bevezetőt kapjanak, ne ismételjék mindenhol a főoldal nagy hero-ját.
 
 ### Gombok és linkek
+
 - Elsődleges: rózsafa / fehér; 16×28 px padding, minimum 52 px magas; hover sötét rózsafa; 250 ms színátmenet.
 - Másodlagos körvonalas: átlátszó háttér, 1 px rózsafa keret; hover púder.
 - Szöveges link: rózsafa, 1 px alsó vonal, 5 px alsó padding.
@@ -92,12 +95,14 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 - Új disabled állapot esetén legyen felismerhető, ne csak szín jelölje; a prototípusban jelenleg nincs ilyen komponens.
 
 ### Kezelések
+
 - Világos háttér, bal oldali hangulatkép, jobb oldali kezelési sorok.
 - Soronként cím, időtartam/célcsoport, rövid szöveg és cselekvés; finom elválasztó.
 - Mobilon a kép után következnek a kezelések.
 - Kezelési csomagoknál az árak és tartalom kizárólag a szovegek.md alapján használhatók; önkényes kedvezmény vagy címke nem adható hozzá.
 
 ### Fotós bemutatkozás – a 2-esből
+
 - selected-about-grid: 0.85fr / 1.15fr, 80 px köz, függőlegesen középre rendezve.
 - Fotó: 480 px magas, 16 px sarok; mobilon 320 px magas.
 - Jobbra bemutatkozás, „14 év” / „2019” adatok, „Így dolgozunk együtt” hivatkozás.
@@ -105,6 +110,7 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 - A fotó illusztrációs felirata megmarad, nem nevezhető Eliza portréjának.
 
 ### Folyamat – a 2-esből
+
 - selected-process: rózsafa háttér, krém szöveg.
 - Balra cím, jobbra rövid bevezető; alatta négy lépés.
 - Szám: Cormorant 600, 48 px; mobilon 40 px, 420 px alatt 32 px.
@@ -112,16 +118,19 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 - A számozás csak tényleges sorrendet jelöl; szolgáltatásokhoz nem díszként használjuk.
 
 ### Előnyök és vélemények
+
 - Előnyök: három világos, keret nélküli oszlop; 36 px vonalas ikon, rövid cím és szöveg; mobilon egymás alatt.
 - Vélemények: rózsafa háttér, két nagy talpas idézet; mobilon egy oszlop.
 - Csak a kapott Fruzsi- és Magdi-idézetek; nincs kitalált csillagozás vagy értékelési darabszám.
 
 ### GYIK
+
 - Púder háttér, bal oldali cím, jobb oldali natív details/summary elemek.
 - 24 px sorpadding, finom elválasztó, +/− nyitásjelző.
 - Billentyűzettel kezelhető; válasz 16 px, másodlagos szövegszín.
 
 ### Űrlap és visszajelzés
+
 - Látható label, hozzá kötött id; helykitöltő nem pótolja a címkét.
 - Fehér mező, halvány keret, 12 px sugár; 13×16 px padding; rózsafa fókusz.
 - E-mail mező type=email; megfelelő autocomplete; kötelező mezők required jelöléssel.
@@ -130,6 +139,7 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 - Éles bekötéskor külön szükséges a küldés közbeni, sikeres és hibás állapot; ezek jelenleg nincsenek megvalósítva.
 
 ### Lábléc
+
 - A kiválasztott változat szerint világos krém, három tartalmi oszlop; mobilon a márkablokk teljes szélességű.
 - Elérhetőségek, navigáció, alsó jogi sor és adatkezelési tájékoztatás.
 - A korábbi opcionális sötét lábléc helyett ez a világos megoldás az alap.
@@ -154,12 +164,12 @@ Oldalanként egy H1; a szakaszok H2-k, részeik H3-ak. A cím szintjét ne a kí
 
 ## 8. Aloldalak felépítése
 
-| Oldal | Átveendő komponensek | Saját tartalom |
-|---|---|---|
-| Kezelések | Fejléc, kezelési sorok, folyamat, űrlap, lábléc | Belico, Mesotica, további kezelések, forrás szerinti csomagok és garancia |
-| Rólunk | Fotós bemutatkozás, előnyök, CTA, lábléc | Eliza története, szakmai mérföldkövek, értékek |
-| Kapcsolat | Rövid bevezető, űrlap, GYIK, lábléc | Elérhetőségek, nyitvatartás; egyetlen űrlap |
-| Adatkezelés | Fejléc, keskeny szövegoszlop, lábléc | A demóműködés pontos leírása |
+| Oldal       | Átveendő komponensek                            | Saját tartalom                                                            |
+| ----------- | ----------------------------------------------- | ------------------------------------------------------------------------- |
+| Kezelések   | Fejléc, kezelési sorok, folyamat, űrlap, lábléc | Belico, Mesotica, további kezelések, forrás szerinti csomagok és garancia |
+| Rólunk      | Fotós bemutatkozás, előnyök, CTA, lábléc        | Eliza története, szakmai mérföldkövek, értékek                            |
+| Kapcsolat   | Rövid bevezető, űrlap, GYIK, lábléc             | Elérhetőségek, nyitvatartás; egyetlen űrlap                               |
+| Adatkezelés | Fejléc, keskeny szövegoszlop, lábléc            | A demóműködés pontos leírása                                              |
 
 A közös komponensek azonos színeket, térközöket és viselkedést kapjanak minden oldalon. Az aloldalak nem készültek el ebben a feladatban.
 
